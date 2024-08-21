@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+    
+  <!-- Spot Style - Academia -->
+  <style name="IconAcademia"
+         url="%FIRSTXML%/spots/place4_academia_user_defaultpoint9_user_defaultpoint0.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconAcademia"
+         onout="onoutIconAcademia"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconAcademia">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconAcademia">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Banco -->
+  <style name="IconBanco"
+         url="%FIRSTXML%/spots/place4_banco_user_defaultpoint23_user_defaultpoint6.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconBanco"
+         onout="onoutIconBanco"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconBanco">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconBanco">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - centro -->
+  <style name="Iconcentro"
+         url="%FIRSTXML%/spots/place4_cic_user_defaultpoint11_user_defaultpoint7.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconcentro"
+         onout="onoutIconcentro"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconcentro">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconcentro">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Farmácia -->
+  <style name="IconFarmácia"
+         url="%FIRSTXML%/spots/place4_farmacia_user_defaultpoint13_user_defaultpoint9.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconFarmácia"
+         onout="onoutIconFarmácia"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconFarmácia">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconFarmácia">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Parque -->
+  <style name="IconParque"
+         url="%FIRSTXML%/spots/place4_parq_user_defaultpoint3_user_defaultpoint11.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconParque"
+         onout="onoutIconParque"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconParque">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconParque">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Ponto Turistico -->
+  <style name="IconPontoTuristico"
+         url="%FIRSTXML%/spots/place4_ponto_user_defaultpoint19_user_defaultpoint12.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconPontoTuristico"
+         onout="onoutIconPontoTuristico"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconPontoTuristico">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconPontoTuristico">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Posto de gasolina -->
+  <style name="IconPostodegasolina"
+         url="%FIRSTXML%/spots/place4_posto_user_defaultpoint16_user_defaultpoint13.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconPostodegasolina"
+         onout="onoutIconPostodegasolina"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconPostodegasolina">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconPostodegasolina">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Hospital -->
+  <style name="IconHospital"
+         url="%FIRSTXML%/spots/place4_saude_user_defaultpoint2_user_defaultpoint14.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconHospital"
+         onout="onoutIconHospital"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconHospital">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconHospital">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Supermercado -->
+  <style name="IconSupermercado"
+         url="%FIRSTXML%/spots/place4_shop_user_defaultpoint0_user_defaultpoint16.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconSupermercado"
+         onout="onoutIconSupermercado"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconSupermercado">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconSupermercado">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Compras -->
+  <style name="IconCompras"
+         url="%FIRSTXML%/spots/place4_shoping_user_defaultpoint17_user_defaultpoint17.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconCompras"
+         onout="onoutIconCompras"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconCompras">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconCompras">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - EscolaUNI -->
+  <style name="IconEscolaUNI"
+         url="%FIRSTXML%/spots/place4_unit_user_defaultpoint4_user_defaultpoint19.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconEscolaUNI"
+         onout="onoutIconEscolaUNI"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconEscolaUNI">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconEscolaUNI">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style -->
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/logo_praia_user_defaultpoint23.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onover="onoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+         height="128"
+         width="128"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle">
+tween(scale, 1.2);
+
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - bar -->
+  <style name="Iconbar"
+         url="%FIRSTXML%/spots/pin_bar_user_defaultpoint24.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconbar"
+         onout="onoutIconbar"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconbar">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconbar">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Stamaria_empreendimentos -->
+  <style name="IconStamaria_empreendimentos"
+         url="%FIRSTXML%/spots/pin_stamaria_user_defaultpoint25.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconStamaria_empreendimentos"
+         onout="onoutIconStamaria_empreendimentos"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconStamaria_empreendimentos">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconStamaria_empreendimentos">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Livraria -->
+  <style name="IconLivraria"
+         url="%FIRSTXML%/spots/pin_livraria_user_defaultpoint26.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconLivraria"
+         onout="onoutIconLivraria"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconLivraria">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconLivraria">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - car wash -->
+  <style name="Iconcarwash"
+         url="%FIRSTXML%/spots/pin_wash_user_defaultpoint27.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconcarwash"
+         onout="onoutIconcarwash"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconcarwash">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconcarwash">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Ginasio -->
+  <style name="IconGinasio"
+         url="%FIRSTXML%/spots/bus_gym_user_defaultpoint29.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconGinasio"
+         onout="onoutIconGinasio"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconGinasio">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconGinasio">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - ball -->
+  <style name="Iconball"
+         url="%FIRSTXML%/spots/bus_batistao_user_defaultpoint30.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconball"
+         onout="onoutIconball"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconball">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconball">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Academia 1 -->
+  <style name="IconAcademia1"
+         url="%FIRSTXML%/spots/pin_swin_user_defaultpoint31.png"
+         visible="false"
+         zoom="true"
+
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconAcademia1"
+         onout="onoutIconAcademia1"
+
+         height="38"
+         width="38"
+         />
+
+  <action name="onhoverIconAcademia1">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconAcademia1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+<!-- ********* -->
+<!-- Gyroscope -->
+<!-- ********* -->
+
+
+
+<plugin name="gyroscope"
+        url="%FIRSTXML%/graphics/gyro2.js"
+        keep="true"
+        devices="no-desktop.and.html5"
+
+        onunavailable="checkGyroUnavailable();"
+        sensor_mode="1"
+        friction="auto"
+        autocalibration="true"
+        touch_mode="full"
+        onavailable="delayedcall(1, checkGyroAvailability(););"
+        enabled="false"
+        activated="false"
+        />
+
+<events name="gyroscopeEvents" onnewpano="planarGyroscopeTest();" keep="true" />
+
+<action name="planarGyroscopeTest">
+  if(plugin[gyroscope],
+          if(scene[get(xml.scene)].full360,
+            set(sceneisfull360, false);
+            sub(viewhfov, panoview.hmax, panoview.hmin);
+            if (viewhfov == 360,
+              sub(viewvfov, panoview.vmax, panoview.vmin);
+              if (viewvfov == 180,
+                set(sceneisfull360, true);
+              );
+            );
+            if (sceneisfull360,
+              set(plugin[gyroscope].camroll, true);
+            ,
+              set(plugin[gyroscope].camroll, false);
+            );
+          ,
+            set(plugin[gyroscope].camroll, false);
+          );
+  );
+</action>
+
+<action name="changeGyroscopeState">
+  if(plugin[gyroscope],
+    if (plugin[gyroscope].isavailable,
+        if(%1,
+          set(plugin[gyroscope].activated,true);
+        ,
+          set(plugin[gyroscope].activated,false);
+        );
+        if (%1 != plugin[gyroscope].enabled,
+          if(plugin[gyroscope].activated,
+            switch(plugin[gyroscope].enabled);
+          ,
+            set(plugin[gyroscope].enabled, false);
+          );
+          if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+        );
+    );
+  );
+</action>
+
+<action name="checkGyroAvailability">
+  if(plugin[gyroscope],
+    if (plugin[gyroscope].isavailable,
+      ifnot(tour_firstlittleplanet,
+        
+        switch(plugin[gyroscope].enabled);
+        set(plugin[gyroscope].activated,true);
+        
+        set(tour_gyroscopedevices, true);
+        events.dispatch(ongyroscopeavailable);
+      ,
+        delayedcall(1, checkGyroAvailability(););
+      );
+    ,
+      set(tour_gyroscopedevices, false);
+    );
+    if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+  ,
+    checkGyroUnavailable();
+  );
+</action>
+
+<action name="checkGyroUnavailable">
+  set(plugin[gyroscope].activated, false);
+  set(plugin[gyroscope].enabled, false);
+  set(tour_gyroscopedevices, false);
+  events.dispatch(ongyroscopeunavailable);
+</action>
+
+<!-- ********** -->
+<!-- Logo - stamaria -->
+<!-- id : logo -->
+<!-- ********** -->
+
+  <layer align="bottomleft"
+         x="10"
+         y="15"
+         zorder="2"
+         name="logo"
+         keep="true"
+         visible="false"
+         capture="false"
+
+			tooltip="logotooltipText"
+			onhover="showTooltip('plugin');"
+			onout="hideTooltip();"
+         url="%FIRSTXML%/graphics/logo/logo_vetor.png" 
+         onclick="openurl(http://construtorasantamaria.com.br/,_blank);
+"
+
+         height="46"
+         width="100"
+
+         />
+
+  <events name="logoevents" 
+    onTourStart="showlogo();"
+    keep="true" />
+
+  <action name="hidelogo">
+    set(layer[logo].visible, false);
+  </action>
+  <action name="showlogo">
+      set(layer[logo].visible, true);
+  </action>
+
+
+
+
+<!-- ********** -->
+<!-- stamaria_crtlbar -->
+<!-- id : stamaria_ctrlbar -->
+<!-- ********** -->
+
+  <krpano stamaria_ctrlbarbarbuilt="false" stamaria_ctrlbarbackgroundwidthwhenclosed="0" stamaria_ctrlbarbackgroundwidthwhenopened="0" stamaria_ctrlbarIsOpened="false" />
+  <events name="stamaria_ctrlbarevents" 
+    onxmlcomplete="stamaria_ctrlbarbuildMenuBar();" 
+
+
+    keep="true" />
+
+
+
+  <action name="stamaria_ctrlbarbuildMenuBar">
+    ifnot (stamaria_ctrlbarbarbuilt, stamaria_ctrlbarbuildMenu(); set(stamaria_ctrlbarbarbuilt, true););
+  </action>
+
+  <action name="stamaria_ctrlbarbuildMenu">
+    
+    set(stamaria_ctrlbarbutton_pos, 20);
+
+
+
+
+    set(layer[stamaria_ctrlbarbtn_display_floorplan].y, get(stamaria_ctrlbarbutton_pos));
+    set(layer[stamaria_ctrlbarbtn_hide_floorplan   ].y, get(stamaria_ctrlbarbutton_pos));
+    inc(stamaria_ctrlbarbutton_pos, 36);
+
+
+
+
+
+
+
+
+
+
+    inc(stamaria_ctrlbarbutton_pos, 20);
+
+    set(stamaria_ctrlbarbackgroundwidthwhenopened, get(stamaria_ctrlbarbutton_pos));
+
+
+
+    
+    add(stamaria_ctrlbarVerifyVisibility, 20, 20);
+    if(stamaria_ctrlbarbackgroundwidthwhenopened == stamaria_ctrlbarVerifyVisibility,
+      set(stamaria_ctrlbarbackgroundwidthwhenopened, 0);
+
+
+    );
+
+	
+	
+  </action>
+
+	<events name="stamaria_ctrlbarStartTourEvents" onTourStart="stamaria_ctrlbarCallOnStartTour();" keep="true" />
+
+	<action name="stamaria_ctrlbarCallOnStartTour">
+		
+		set(layer[stamaria_ctrlbarmenu_controlbar_bg_img].height, get(stamaria_ctrlbarbutton_pos));
+		set(layer[stamaria_ctrlbarmenu_controlbar_bg].height, get(stamaria_ctrlbarbutton_pos));
+		stamaria_ctrlbarshowMenuControls();
+	</action>
+
+
+
+  <style name="stamaria_ctrlbar_btn_style"
+         keep="true"
+         alpha="0.8"
+         edge="top" align="top"
+         width="36" height="36"
+         zorder="5"
+         onover="stamaria_ctrlbarctrlbaronoveraction();"
+         onout="stamaria_ctrlbarctrlbaronoutaction();"
+         onhover="showTooltip('plugin', NULL, left);"
+         />
+  <action name="stamaria_ctrlbarctrlbaronoveraction">
+    tween(alpha,1,0.1,easeoutquad);
+    tween(x,-2,0.1,easeoutquad);
+  </action>  
+  <action name="stamaria_ctrlbarctrlbaronoutaction">
+    tween(alpha,0.8);
+    tween(x,0,0.1,easeoutquad);
+    hideTooltip();
+  </action>
+
+  <layer name="stamaria_ctrlbarmenu_controlbar_bg_img"
+         keep="true"
+         align="topleft"
+         x="0" y="15"
+         url="%FIRSTXML%/graphics/classiccontrolbar_stamaria/footer.png"
+         zorder="3"
+         width="40"
+         height="40"
+         scale9grid="10|10|80|80"
+         visible="false"
+         />
+  <layer name="stamaria_ctrlbarmenu_controlbar_bg"
+         keep="true"
+         align="topleft"
+         x="0" y="15"
+         type="container"
+         zorder="4"
+         width="40"
+         height="40"
+         visible="false"
+         alpha="1.0"
+         >
+
+
+
+
+
+
+    <layer name="stamaria_ctrlbarbtn_display_floorplan"
+           url="%FIRSTXML%/graphics/classiccontrolbar_stamaria/btn_floorplan.png"
+           onclick="showFloorplan();
+"
+           style="stamaria_ctrlbar_btn_style"
+           visible="false"
+           tooltip="stamaria_ctrlbardisplayFloorplanTip"
+           />
+    <layer name="stamaria_ctrlbarbtn_hide_floorplan"
+           url="%FIRSTXML%/graphics/classiccontrolbar_stamaria/btn_floorplan.png"
+           onclick="hideFloorplan();
+"
+           style="stamaria_ctrlbar_btn_style"
+           visible="false"
+           tooltip="stamaria_ctrlbarhideFloorplanTip"
+           />
+
+
+
+
+
+
+  </layer>
+
+
+
+
+
+  <action name="stamaria_ctrlbarhideMenuControls">
+    set(stamaria_ctrlbarIsOpened, false);
+
+
+
+
+
+    stamaria_ctrlbarupdateFloorplanButtons();
+
+
+
+
+
+    if(stamaria_ctrlbarbackgroundwidthwhenclosed == 0,
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg_img].visible, false);
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg].visible, false);
+    ,
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg_img].visible, true);
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg].visible, true);
+    );
+    tween(layer[stamaria_ctrlbarmenu_controlbar_bg_img].height,get(stamaria_ctrlbarbackgroundwidthwhenclosed),0.5,easeOutQuad);
+    tween(layer[stamaria_ctrlbarmenu_controlbar_bg].height,get(stamaria_ctrlbarbackgroundwidthwhenclosed),0.5,easeOutQuad);
+    tween(layer[stamaria_ctrlbarmenu_controlbar_bg_img].alpha,1.0,0.5,easeOutQuad);
+  </action>
+  <action name="stamaria_ctrlbarshowMenuControls">
+    set(stamaria_ctrlbarIsOpened, true);
+    if(stamaria_ctrlbarbackgroundwidthwhenopened == 0,
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg_img].visible, false);
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg].visible, false);
+    ,
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg_img].visible, true);
+      set(layer[stamaria_ctrlbarmenu_controlbar_bg].visible, true);
+    );
+    tween(layer[stamaria_ctrlbarmenu_controlbar_bg_img].alpha,1.0,0.5,easeOutQuad);
+    stamaria_ctrlbarshowMenuButtons();
+
+
+      tween(layer[stamaria_ctrlbarmenu_controlbar_bg_img].height, get(stamaria_ctrlbarbackgroundwidthwhenopened),0.5,easeOutQuad);
+      tween(layer[stamaria_ctrlbarmenu_controlbar_bg].height, get(stamaria_ctrlbarbackgroundwidthwhenopened),0.5,easeOutQuad);
+
+
+  </action>
+  <action name="stamaria_ctrlbarshowMenuButtons">
+
+    stamaria_ctrlbarupdateFloorplanButtons();
+
+
+
+
+
+
+
+
+
+  </action>
+
+
+	<events name="stamaria_ctrlbarDisplayFloorPlanEvents" 
+		onshowtourfloorplan="stamaria_ctrlbarupdateFloorplanButtons();" 
+		onhidetourfloorplan="stamaria_ctrlbarupdateFloorplanButtons();" 
+		keep="true" />
+	<action name="stamaria_ctrlbarHideFloorplanButtons">
+		set(layer[stamaria_ctrlbarbtn_display_floorplan].visible, false);
+		set(layer[stamaria_ctrlbarbtn_hide_floorplan].visible, false);
+	</action>
+	<action name="stamaria_ctrlbarShowFloorplanButtons">
+		if (tour_displayfloorplan,
+			set(layer[stamaria_ctrlbarbtn_hide_floorplan].visible, true);
+			set(layer[stamaria_ctrlbarbtn_display_floorplan].visible, false);
+		,
+			set(layer[stamaria_ctrlbarbtn_display_floorplan].visible, true);
+			set(layer[stamaria_ctrlbarbtn_hide_floorplan].visible, false);
+		);
+	</action>
+	<action name="stamaria_ctrlbarupdateFloorplanButtons">
+		if (stamaria_ctrlbarIsOpened,
+			stamaria_ctrlbarShowFloorplanButtons();
+		,
+			stamaria_ctrlbarHideFloorplanButtons();
+		);
+	</action>
+
+
+
+
+
+
+
+<!-- ********** -->
+<!-- Floor plan -->
+<!-- id : floorPlan -->
+<!-- ********** -->
+
+	<ptplugin name="floorPlan" engine="KolorFloorPlan">
+		<settings>
+			<option name="background_color" value="ffffff" type="string" />
+			<option name="background_lighter_color" value="ffffff" type="string" />
+			<option name="background_darker_color" value="d5d5d5" type="string" />
+			<option name="background_alpha" value="0" type="float" />
+			<option name="text_color" value="000000" type="string" />
+			<option name="resize" value="true" type="bool" />
+			<option name="fp_selector" value="one" type="string" />
+			<option name="fp_selector_label" value="floorPlanmenu_label" type="string" />
+			<option name="display_title" value="false" type="bool" />
+			<option name="title_font" value="Verdana" type="string" />
+			<option name="title_size" value="14" type="int" />
+			<option name="title_weight" value="normal" type="string" />
+			<option name="title_decoration" value="normal" type="string" />
+			<option name="title_color" value="000000" type="string" />
+			<option name="display_orientation" value="false" type="bool" />
+			<option name="display_radar" value="false" type="bool" />
+			<option name="close_on_click" value="true" type="bool" />
+			<option name="position" value="center" type="string" />
+			<option name="zorder" value="6" type="int" />
+			<option name="use_i18n" value="true" type="bool" />
+		</settings>
+		
+		<floorplanItems selectedItem="fpitemmain" selectedSpot="" selectedSpotScene="" selectedSpotHeading="" selectedSpotFov="">
+				
+				<floorplanItem 
+					name="fpitemmain" 
+					width="1330" 
+					height="944" 
+					groupName="" 
+					url="floorplan/plata_praia.jpg" 
+					title="project_floor_title"
+					heading="0">
+							<spot name="spotmap44" posX="0.558798015" posY="0.198630005" heading="0" desc="spotmap44_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano89" jsClick="spotmap44ActionSpotFloorPlan">
+								<icon url="spots/camera_user_defaultmap0.png" iconWidth="24" iconHeight="24" iconAnchor="center" />
+							</spot>
+				</floorplanItem>
+			
+			
+		</floorplanItems>
+	</ptplugin>
+	
+	<action name="kolorFloorplanJsReady_floorPlan">
+		set(ptplugin[floorPlan].jsready, true);
+		
+		ifnot(ptplugin[floorPlan].floorplanItems[0].selectedSpot == "",
+			set(ptplugin[floorPlan].floorplanItems[0].selectedSpotFov, get(view.hfov));
+			js(invokePluginFunction(floorPlan, setKolorFloorPlanSelectedSpotOptions, get(xml.scene), get(view.hlookat), get(view.hfov)));
+		);
+	</action>
+	
+	
+		<!-- floorplan main spots counter : 1 -->
+			<action name="spotmap44ActionSpotFloorPlan">if(xml.scene == pano89,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano89);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+	
+	
+	
+	<events name="floorPlanEvents" 
+	onxmlcomplete="ifnot(floorPlanFloorPlanLoaded,set(tour_displayfloorplan,false););floorPlanActivateDefaultSpot();" 
+	onhidetourfloorplan="delayedcall(0.3,floorPlanCloseTourFloorPlan(););" 
+	onshowtourfloorplan="if(tour_displayfloorplan,floorPlanOpenTourFloorPlan(););" 
+	onTourStart=""
+	changetourlanguage="floorPlanChangeLanguage();"
+	keep="true" />
+	
+	<action name="floorPlanChangeLanguage">
+		if(ptplugin[floorPlan].jsready,
+			stopdelayedcall(delay_floorPlan);
+			js(invokePluginFunction(floorPlan, changeLanguage));
+			js(invokePluginFunction(floorPlanArea, changeLanguage, false));
+		,
+			delayedcall(delay_floorPlan, 0.1, floorPlanChangeLanguage(););
+		);
+	</action>
+	
+	
+	<krpano floorPlanFloorPlanLoaded="false" />
+	
+	<action name="floorPlanHideTourFloorPlan">
+		hideKolorArea_floorPlanArea(true);
+	</action>
+	
+	<action name="floorPlanCloseTourFloorPlan">
+		closeKolorArea_floorPlanArea();
+	</action>
+	
+	<action name="floorPlanShowTourFloorPlan">
+		if(ptplugin[floorPlanArea].isOpen === null,
+			openKolorArea_floorPlanArea();
+		,
+			showKolorArea_floorPlanArea(true);
+		);
+	</action>
+	
+	<action name="floorPlanOpenTourFloorPlan">
+		openKolorArea_floorPlanArea();
+	</action>
+	
+	
+	<action name="floorPlanActivateSpot">
+		
+		set(ptplugin[floorPlan].floorplanItems[0].selectedSpot, %1);
+		set(ptplugin[floorPlan].floorplanItems[0].selectedItem, %2);
+		
+		if(%1 !== "",
+			set(ptplugin[floorPlan].floorplanItems[0].selectedSpotScene, get(xml.scene));
+			set(ptplugin[floorPlan].floorplanItems[0].selectedSpotHeading, get(view.hlookat));
+			set(ptplugin[floorPlan].floorplanItems[0].selectedSpotFov, get(view.hfov));
+		);
+		
+		js(invokePluginFunction(floorPlan, selectSpot, %1, %2, %3));
+
+	</action>
+	
+	<action name="floorPlanDeactivateSpot">
+		set(ptplugin[floorPlan].floorplanItems[0].selectedSpot, "");
+		
+		js(invokePluginFunction(floorPlan, unselectSpot));
+	</action>
+	
+	<action name="floorPlanActivateDefaultSpot">
+		set(floorPlanFloorPlanLoaded, true);
+		
+		set(floorPlanSpotFound, "");
+		set(floorPlanSpotScene, "");
+		set(floorPlanItemFound, "");
+		set(floorPlanItemSearch, true);
+		set(floorPlanSpotSearchActivated, true);
+		set(floorPlanSpotSearchContinue, true);
+		
+		
+		set(defaultfloorplaniteminc_wait,50);
+		for(set(defaultfloorplaniteminc,0), defaultfloorplaniteminc LT ptplugin[floorPlan].floorplanItems[0].floorplanItem.count , inc(defaultfloorplaniteminc),
+			if(defaultfloorplaniteminc_wait == defaultfloorplaniteminc,
+				add(defaultfloorplaniteminc_wait,50);
+				wait(0);
+			);
+			if(floorPlanSpotSearchActivated == true,
+				
+				if(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].groupName == scene[get(xml.scene)].group,
+					set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(floorPlanItemSearch, false);
+				,
+					
+					if(floorPlanItemFound == "",
+						set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[fpitemmain].name));
+						set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[fpitemmain].name));
+					);
+				);
+			);
+			if(floorPlanSpotSearchActivated == true,
+				set(defaultspotinc_wait,50);
+				for(set(defaultspotinc,0), defaultspotinc LT ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot.count , inc(defaultspotinc),
+					if(defaultspotinc_wait == defaultspotinc,
+						add(defaultspotinc_wait,50);
+						wait(0);
+					);
+					if(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].isScene == true,
+					
+						if(floorPlanSpotSearchContinue == true,
+							if(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene == xml.scene,
+								set(floorPlanSpotFound, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].name));
+								set(floorPlanSpotScene, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene));
+								set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(ptplugin[floorPlan].floorplanItems[0].floorplanItem[get(defaultfloorplaniteminc)].name));
+								if(floorPlanItemSearch == false,
+									set(floorPlanSpotSearchContinue, false);
+									set(floorPlanSpotSearchActivated, false);
+								);
+							);
+						);
+					);
+					
+				);
+			);
+		);
+		
+		if(floorPlanSpotFound == "",
+			
+			
+			floorPlanDeactivateSpot();
+			
+			
+			set(ptplugin[floorPlan].floorplanItems[0].selectedItem, get(floorPlanItemFound));
+			
+			
+			ifnot(ptplugin[floorPlan].floorplanItems[0].selectedItem == "",
+				floorPlanActivateSpot("", get(ptplugin[floorPlan].floorplanItems[0].selectedItem), "");
+			);
+		,
+			
+			floorPlanActivateSpot(get(floorPlanSpotFound), get(ptplugin[floorPlan].floorplanItems[0].selectedItem), get(floorPlanSpotScene));
+		);
+	</action>
+	
+	<action name="floorPlanChangeTitle">
+		js(invokePluginFunction(floorPlan, changeTitle, %1));
+	</action>
+	
+	<ptplugin name="floorPlanArea" engine="kolorArea">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="start_position" value="top" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="display_title" value="false" type="bool" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="close_displayed" value="false" type="bool" />
+		<option name="close_text" value="floorPlandisplay_close_text" type="string" />
+
+		<option name="background_color" value="ffffff" type="string" />
+		<option name="background_alpha" value="0" type="float" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="padding" value="3" type="int" />
+		<option name="topleft_radius" value="0" type="int" />
+		<option name="topright_radius" value="0" type="int" />
+		<option name="bottomleft_radius" value="0" type="int" />
+		<option name="bottomright_radius" value="0" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f2f2f2" type="string" />
+		<option name="area_border_alpha" value="0" type="float" />
+		<option name="area_width" value="60" type="int" />
+		<option name="area_height" value="60" type="int" />
+		<option name="area_width_unit" value="percent" type="string" />
+		<option name="area_height_unit" value="percent" type="string" />
+		<option name="animation" value="true" type="bool" />
+		<option name="animation_duration" value="150" type="int" />
+		<option name="close_on_click" value="true" type="bool" />
+		<option name="refresh_content" value="false" type="bool" />
+		<option name="open_callback" value="addKolorFloorPlan('floorPlan', 'floorPlanArea_floorplanDIV');" type="string" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback_floorPlanArea')" type="string" />
+		<option name="zorder" value="6" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	</ptplugin>
+	
+	<action name="kolorAreaJsReady_floorPlanArea">
+		set(ptplugin[floorPlanArea].jsready, true);
+
+	</action>
+	
+	<action name="openKolorArea_floorPlanArea">
+		ifnot(ptplugin[floorPlanArea].isOpen,
+			if(ptplugin[floorPlanArea].doNotDeleteMe,
+				set(ptplugin[floorPlanArea].currentCall, false);
+				set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+			set(ptplugin[floorPlanArea].isOpen, true);
+			pauseautorotation(forceplugin);
+
+			js(showKolorArea(floorPlanArea, &lt;div id="floorPlanArea_floorplanDIV"&gt;&lt;/div&gt;));
+			,
+				set(ptplugin[floorPlanArea].currentCall, true);
+				set(ptplugin[floorPlanArea].doNotDeleteMe, true);
+				events.dispatch(onremovedisplayedobject);
+				delayedcall(0.3,openKolorArea_floorPlanArea(););
+			);
+		);
+	</action>
+	
+	<action name="closeKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			if(ptplugin[floorPlanArea].doNotDeleteMe,
+				set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+			,
+			js(invokePluginFunction(floorPlanArea, closeKolorArea));
+			);
+		);
+	</action>
+	
+	<action name="toggleKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			closeKolorArea_floorPlanArea();
+		,
+			openKolorArea_floorPlanArea();
+		);
+	</action>
+	
+	<action name="closeKolorAreaCallback_floorPlanArea">
+		set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+		if(ptplugin[floorPlanArea].isOpen,resumeautorotation(forceplugin);
+
+			
+		);
+		set(ptplugin[floorPlanArea].isOpen, false);hideFloorplan();
+
+	</action>
+	
+	<action name="changeTitleKolorArea_floorPlanArea">
+		js(invokePluginFunction(floorPlanArea, changeTitle, %1));
+	</action>
+	
+	<action name="showKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].doNotDeleteMe,
+			set(ptplugin[floorPlanArea].currentCall, false);
+			set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+		set(ptplugin[floorPlanArea].isOpen, true);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(floorPlanArea, showKolorArea, %1));
+		,
+			set(ptplugin[floorPlanArea].currentCall, true);
+			set(ptplugin[floorPlanArea].doNotDeleteMe, true);
+			events.dispatch(onremovedisplayedobject);
+			delayedcall(0.3,showKolorArea_floorPlanArea(););
+		);
+	</action>
+		
+	<action name="hideKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].doNotDeleteMe,
+			set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+		,
+		resumeautorotation(forceplugin);
+
+		
+		set(ptplugin[floorPlanArea].isOpen, false);
+		js(invokePluginFunction(floorPlanArea, hideKolorArea, %1));
+		);
+	</action>
+	
+	<events name="kolorAreaEvents_floorPlanArea" 
+		keep="true"
+		onremovepano="if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+);"
+		onremovedisplayedobject="ifnot(ptplugin[floorPlanArea].currentCall,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+););"
+	/>
+	
+<!-- ********** -->
+<!-- Context menu -->
+<!-- id : contextmenu -->
+<!-- ********** -->
+  <contextmenu fullscreen="false" versioninfo="false" touch="true">
+    <item name="author" onclick="getmessage(urltoopen,project_author_url);openurl(get(urltoopen),_blank);" />
+    <item name="fullscreenentry" onclick="enterFullscreen();
+" separator="true"/>
+    <item name="vrmodeentry" onclick="js(accessWebVr());
+" />
+  </contextmenu>
+
+  <events name="contextmenuevents" keep="true" 
+    onenterfullscreen="updateContextMenu" onexitfullscreen="updateContextMenu" 
+    onxmlcomplete="updateContextMenu" 
+    changetourlanguage="updateContextMenu" 
+    />
+  <events name="contextmenuvrevents" keep="true" 
+    onvravailable="updateContextMenu();" onvrunavailable="updateContextMenu();"
+    devices="html5"
+    />
+  <action name="updateContextMenu">
+    getmessage(contextmenu.item[author].caption, project_author_name);
+    if (device.fullscreensupport,
+      if(tour_fullscreen,
+        getmessage(contextmenu.item[fullscreenentry].caption, contextmenucloseFsLabel);
+        set(contextmenu.item[fullscreenentry].onclick, exitFullscreen();
+);
+       ,
+        getmessage(contextmenu.item[fullscreenentry].caption, contextmenuopenFsLabel);
+        set(contextmenu.item[fullscreenentry].onclick, enterFullscreen();
+);
+      );
+     ,
+      set(contextmenu.item[fullscreenentry].visible, false);
+    );
+    if (device.html5 AND tour_vrdevices,
+      getmessage(contextmenu.item[vrmodeentry].caption, contextmenuopenVrLabel);
+      set(contextmenu.item[vrmodeentry].onclick, js(accessWebVr());
+);
+     ,
+      set(contextmenu.item[vrmodeentry].visible, false);
+    );
+  </action>
+
+<!-- ********** -->
+<!-- Logo - praia -->
+<!-- id : logo1 -->
+<!-- ********** -->
+
+  <layer align="bottomleft"
+         x="110"
+         y="15"
+         zorder="9"
+         name="logo1"
+         keep="true"
+         visible="false"
+         capture="false"
+
+			tooltip="logo1tooltipText"
+			onhover="showTooltip('plugin');"
+			onout="hideTooltip();"
+         url="%FIRSTXML%/graphics/logo1/_praia.png" 
+         onclick="openurl(http://construtorasantamaria.com.br/empreendimento/4/praia-formosa,_blank);
+"
+
+         height="35"
+         width="130"
+
+         />
+
+  <events name="logo1events" 
+    onTourStart="showlogo1();"
+    keep="true" />
+
+  <action name="hidelogo1">
+    set(layer[logo1].visible, false);
+  </action>
+  <action name="showlogo1">
+      set(layer[logo1].visible, true);
+  </action>
+
+
+
+
+<!-- ********** -->
+<!-- Logo2 -->
+<!-- id : logo2 -->
+<!-- ********** -->
+
+  <layer align="bottomright"
+         x="10"
+         y="10"
+         zorder="10"
+         name="logo2"
+         keep="true"
+         visible="false"
+         capture="false"
+
+			tooltip="logo2tooltipText"
+			onhover="showTooltip('plugin');"
+			onout="hideTooltip();"
+         url="%FIRSTXML%/graphics/logo2/nova_pixel1.png" 
+         onclick="openurl(http://pixelarquiteturadigital.com.br/,_blank);
+"
+
+         height="35"
+         width="130"
+
+         />
+
+  <events name="logo2events" 
+    onTourStart="showlogo2();"
+    keep="true" />
+
+  <action name="hidelogo2">
+    set(layer[logo2].visible, false);
+  </action>
+  <action name="showlogo2">
+      set(layer[logo2].visible, true);
+  </action>
+
+
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+  <!-- Hide / Show Thumbnails -->
+  <action name="hideTourThumbnails">set(tour_displaythumbnails, false);events.dispatch(hidetourthumbnails);</action>
+  <action name="showTourThumbnails">set(tour_displaythumbnails, true); events.dispatch(showtourthumbnails);</action>
+
+
+  <action name="displayImage">
+    if (layer[displayedStandardImage],
+      if(layer[displayedStandardImage].doNotDeleteMe,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].doNotDeleteMe, false);
+        
+        if (%1 == layer[displayedStandardImage].url,
+          applyDisplayedImageObjectAnimation(%8);
+        ,
+          setDisplayedImageObjectParameters(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10);
+        );
+      ,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].doNotDeleteMe, true);
+        events.dispatch(onremovedisplayedobject);
+        delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10, %11, %12););
+      );
+    ,
+      if(%10,
+        addlayer(displayedStandardImageOverlay);
+        set(layer[displayedStandardImageOverlay].keep, false);
+        set(layer[displayedStandardImageOverlay].width, 100%);
+        set(layer[displayedStandardImageOverlay].height, 100%);
+        set(layer[displayedStandardImageOverlay].type, container);
+        set(layer[displayedStandardImageOverlay].zorder, 98);
+        set(layer[displayedStandardImageOverlay].visible, false);
+        set(layer[displayedStandardImageOverlay].onclick, applyDisplayedImageObjectAnimation(%8););
+        set(layer[displayedStandardImageOverlay].bgcolor, "0x%11");
+        set(layer[displayedStandardImageOverlay].bgalpha, %12);
+        set(layer[displayedStandardImageOverlay].bgcapture, true);
+      );
+      addlayer(displayedStandardImage);
+      set(layer[displayedStandardImage].keep, false);
+      set(layer[displayedStandardImage].onclick, applyDisplayedImageObjectAnimation(%8););
+      set(layer[displayedStandardImage].zorder , 99);
+      set(layer[displayedStandardImage].currentCall, true);
+      set(layer[displayedStandardImage].doNotDeleteMe, true);
+      set(layer[displayedStandardImage].onloaded, resizeDisplayedImageObject());
+      events.dispatch(onremovedisplayedobject);
+      delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10, %11, %12););
+      set(layer[displayedStandardImage].visible, false);
+    );
+  </action>
+  <action name="applyDisplayedImageObjectAnimation">resumeautorotation(forcehotspot);
+
+    if (%1,
+      stoptween(layer[displayedStandardImage].width, layer[displayedStandardImage].height);
+      tween(layer[displayedStandardImage].width|layer[displayedStandardImage].height, 1|1, 1, easeOutQuad, WAIT);
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););removelayer(displayedStandardImage);
+    ,
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););removelayer(displayedStandardImage);
+    );
+  </action>
+  <action name="setDisplayedImageObjectParameters">
+    set(layer[displayedStandardImage].url       , %1);
+    set(layer[displayedStandardImage].align     , %2);
+    set(layer[displayedStandardImage].x         , %3);
+    set(layer[displayedStandardImage].y         , %4);
+    set(layer[displayedStandardImage].imgwidth  , %5);
+    set(layer[displayedStandardImage].imgheight , %6);
+    set(layer[displayedStandardImage].animated  , %8);
+    set(layer[displayedStandardImage].applyratio, %9);
+    set(layer[displayedStandardImage].overlay   , %10);
+    if (%7,pauseautorotation(forcehotspot);
+);
+  </action>
+  <action name="resizeDisplayedImageObject">
+    if(layer[displayedStandardImage].url,
+    set(layer[displayedStandardImage].fullwidth, get(layer[displayedStandardImage].width));
+    set(layer[displayedStandardImage].fullheight, get(layer[displayedStandardImage].height));
+    if(layer[displayedStandardImage].animated,
+      set(layer[displayedStandardImage].width , 1);
+      set(layer[displayedStandardImage].height, 1);
+    );
+    if(layer[displayedStandardImage].imgwidth != "" AND layer[displayedStandardImage].imgheight != "",
+      if(layer[displayedStandardImage].imgwidth == "prop",
+        set(tempDisplayedImageObjectHeight, get(layer[displayedStandardImage].imgheight));
+        indexoftxt(tempDisplayedImageObjectHeightPercent, get(tempDisplayedImageObjectHeight), "%");
+        if(tempDisplayedImageObjectHeightPercent GT 0,
+          txtreplace(tempDisplayedImageObjectHeight, '%', '');
+          mul(tempDisplayedImageObjectHeight, get(stageheight));
+          div(tempDisplayedImageObjectHeight, 100);
+          Math.round(tempDisplayedImageObjectHeight);
+        );
+        mul(flyingImgWidth,get(layer[displayedStandardImage].fullwidth),get(tempDisplayedImageObjectHeight));
+        div(flyingImgWidth,get(layer[displayedStandardImage].fullheight));
+        Math.round(flyingImgWidth);
+        set(layer[displayedStandardImage].imgwidth , get(flyingImgWidth));
+        set(layer[displayedStandardImage].imgheight, get(tempDisplayedImageObjectHeight));
+      ,
+        if(layer[displayedStandardImage].imgheight == "prop",
+          set(tempDisplayedImageObjectWidth, get(layer[displayedStandardImage].imgwidth));
+          indexoftxt(tempDisplayedImageObjectWidthPercent, get(tempDisplayedImageObjectWidth), "%");
+          if(tempDisplayedImageObjectWidthPercent GT 0,
+            txtreplace(tempDisplayedImageObjectWidth, '%', '');
+            mul(tempDisplayedImageObjectWidth, get(stagewidth));
+            div(tempDisplayedImageObjectWidth, 100);
+            Math.round(tempDisplayedImageObjectWidth);
+          );
+          mul(flyingImgHeight,get(layer[displayedStandardImage].fullheight),get(tempDisplayedImageObjectWidth));
+          div(flyingImgHeight,get(layer[displayedStandardImage].fullwidth));
+          Math.round(flyingImgHeight);
+          set(layer[displayedStandardImage].imgwidth , get(tempDisplayedImageObjectWidth));
+          set(layer[displayedStandardImage].imgheight , get(flyingImgHeight));
+        ,
+          set(tempDisplayedImageObjectWidth, get(layer[displayedStandardImage].imgwidth));
+          set(tempDisplayedImageObjectHeight, get(layer[displayedStandardImage].imgheight));
+          indexoftxt(tempDisplayedImageObjectWidthPercent, get(tempDisplayedImageObjectWidth), "%");
+          indexoftxt(tempDisplayedImageObjectHeightPercent, get(tempDisplayedImageObjectHeight), "%");
+          if(tempDisplayedImageObjectWidthPercent GT 0,
+            txtreplace(tempDisplayedImageObjectWidth, '%', '');
+            mul(tempDisplayedImageObjectWidth, get(stagewidth));
+            div(tempDisplayedImageObjectWidth, 100);
+            Math.round(tempDisplayedImageObjectWidth);
+          );
+          if(tempDisplayedImageObjectHeightPercent GT 0,
+            txtreplace(tempDisplayedImageObjectHeight, '%', '');
+            mul(tempDisplayedImageObjectHeight, get(stageheight));
+            div(tempDisplayedImageObjectHeight, 100);
+            Math.round(tempDisplayedImageObjectHeight);
+          );
+          set(layer[displayedStandardImage].imgwidth , get(tempDisplayedImageObjectWidth));
+          set(layer[displayedStandardImage].imgheight, get(tempDisplayedImageObjectHeight));
+        );
+      );
+    ,
+      set(layer[displayedStandardImage].imgwidth , get(layer[displayedStandardImage].fullwidth));
+      set(layer[displayedStandardImage].imgheight, get(layer[displayedStandardImage].fullheight));
+    );
+    
+    set(resizedwidth, get(layer[displayedStandardImage].imgwidth));
+    set(resizedheight, get(layer[displayedStandardImage].imgheight));
+    if(layer[displayedStandardImage].applyratio,
+      sub(resizedstagewidth, get(stagewidth), get(layer[displayedStandardImage].x));
+      sub(resizedstageheight, get(stageheight), get(layer[displayedStandardImage].y));
+      Math.abs(resizedstagewidth);
+      Math.abs(resizedstageheight);
+      if(resizedwidth GT resizedstagewidth,
+        mul(tempresizedheight, get(resizedheight), get(resizedstagewidth));
+        div(tempresizedheight, get(resizedwidth));
+        Math.round(tempresizedheight);
+        set(resizedwidth, get(resizedstagewidth));
+        set(resizedheight, get(tempresizedheight));
+      );
+      if(resizedheight GT resizedstageheight,
+        mul(tempresizedwidth, get(resizedwidth), get(resizedstageheight));
+        div(tempresizedwidth, get(resizedheight));
+        Math.round(tempresizedwidth);
+        set(resizedheight, get(resizedstageheight));
+        set(resizedwidth, get(tempresizedwidth));
+      );
+    );
+    
+    if(layer[displayedStandardImage].animated,
+      set(layer[displayedStandardImage].animated, false);
+      tween(layer[displayedStandardImage].width , get(resizedwidth), 1, easeOutQuad);
+      tween(layer[displayedStandardImage].height, get(resizedheight), 1, easeOutQuad);
+    ,
+      set(layer[displayedStandardImage].width , get(resizedwidth));
+      set(layer[displayedStandardImage].height, get(resizedheight));
+    );
+    if(layer[displayedStandardImage].overlay,set(layer[displayedStandardImageOverlay].visible, true););
+    set(layer[displayedStandardImage].visible, true);
+    ,
+      delayedcall(0.2,resizeDisplayedImageObject(););
+    );
+  </action>
+  <events name="displayedImageObjectEvents" keep="true" onremovedisplayedobject="displayedImageObjectOnRemoveDisplayedObject" onresize="if(layer[displayedStandardImage],resizeDisplayedImageObject());" />
+  <action name="displayedImageObjectOnRemoveDisplayedObject">
+    ifnot(layer[displayedStandardImage].currentCall,if(layer[displayedStandardImage].visible,resumeautorotation(forcehotspot);
+
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););
+      removelayer(displayedStandardImage);
+    ););
+  </action>
+
+
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+	<!-- WebVR plugin for VR availability tests -->
+
+	<plugin name="ptpvrmode" devices="html5" keep="true"
+		url="%FIRSTXML%/graphics/webvr.js"
+		mobilevr_support="true"
+		mobilevr_fake_support="false"
+		vr_cursor=""
+		vr_cursor_enabled="false"
+		onavailable="delayedcall(1, checkVrAvailability(););"
+		onunavailable="checkVrUnavailable();"
+		/>
+	<action name="checkVrAvailability">
+		if(plugin[ptpvrmode],
+			if (plugin[ptpvrmode].isavailable,
+				set(tour_vrdevices, true);
+				events.dispatch(onvravailable);
+			,
+				set(tour_vrdevices, false);
+			);
+		,
+			checkVrUnavailable();
+		);
+	</action>
+	<action name="checkVrUnavailable">
+		set(tour_vrdevices, false);
+		events.dispatch(onvrunavailable);
+	</action>
+</krpano>
