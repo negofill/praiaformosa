@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[Praia Formosa]]></data>
+  <data name="en_project_author_name"><![CDATA[Pixel Arquitetura Digital]]></data>
+  <data name="en_project_author_url"><![CDATA[http://pixelarquiteturadigital.com.br/]]></data>
+
+
+
+  <data name="en_pano89_title"><![CDATA[13 de julho]]></data>
+  <data name="en_spotpoint91_tooltip"><![CDATA[Posto de Combustível]]></data>
+  <data name="en_spotpoint92_tooltip"><![CDATA[Calçadão 13 de Julho]]></data>
+  <data name="en_spotpoint93_tooltip"><![CDATA[Shopping Riomar]]></data>
+  <data name="en_spotpoint94_tooltip"><![CDATA[Super Mercado]]></data>
+  <data name="en_spotpoint95_tooltip"><![CDATA[Centro Médico]]></data>
+  <data name="en_spotpoint96_tooltip"><![CDATA[Escola]]></data>
+  <data name="en_spotpoint97_tooltip"><![CDATA[Escola]]></data>
+  <data name="en_spotpoint98_tooltip"><![CDATA[Praça Tobias Barreto]]></data>
+  <data name="en_spotpoint99_tooltip"><![CDATA[Centro Médico]]></data>
+  <data name="en_spotpoint100_tooltip"><![CDATA[Hospital]]></data>
+  <data name="en_spotpoint101_tooltip"><![CDATA[Batistão]]></data>
+  <data name="en_spotpoint102_tooltip"><![CDATA[Iate]]></data>
+  <data name="en_spotpoint103_tooltip"><![CDATA[Praia Formosa]]></data>
+  <data name="en_spotpoint123_tooltip"><![CDATA[Novo Calçadao 13 de Julho]]></data>
+  <data name="en_spotpoint129_tooltip"><![CDATA[Academia]]></data>
+  <data name="en_spotpoint130_tooltip"><![CDATA[Academia]]></data>
+  <data name="en_spotpoint137_tooltip"><![CDATA[Banco]]></data>
+  <data name="en_spotpoint138_tooltip"><![CDATA[Bar]]></data>
+  <data name="en_spotpoint140_tooltip"><![CDATA[Banco]]></data>
+  <data name="en_spotpoint141_tooltip"><![CDATA[Biblioteca]]></data>
+  <data name="en_spotpoint142_tooltip"><![CDATA[Banco]]></data>
+  <data name="en_spotpoint143_tooltip"><![CDATA[Ginásio]]></data>
+  <data name="en_spotpoint145_tooltip"><![CDATA[Delicatessen]]></data>
+  <data name="en_spotpoint146_tooltip"><![CDATA[Delicatessen]]></data>
+  <data name="en_spotpoint147_tooltip"><![CDATA[Restaurante]]></data>
+  <data name="en_spotpoint148_tooltip"><![CDATA[Santa Maria - Eldorado]]></data>
+  <data name="en_spotpoint149_tooltip"><![CDATA[Santa Maria - Fernando Sampaio]]></data>
+  <data name="en_spotpoint150_tooltip"><![CDATA[Restaurante]]></data>
+  <data name="en_spotpoint151_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint152_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint153_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint154_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint155_tooltip"><![CDATA[Restaurante]]></data>
+  <data name="en_spotpoint156_tooltip"><![CDATA[Santa Maria - Calumby Barreto]]></data>
+  <data name="en_spotpoint157_tooltip"><![CDATA[Santa Maria - Machado de Souza]]></data>
+  <data name="en_spotpoint158_tooltip"><![CDATA[Bar]]></data>
+  <data name="en_spotpoint159_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint160_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint161_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint162_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint163_tooltip"><![CDATA[Galeria]]></data>
+  <data name="en_spotpoint164_tooltip"><![CDATA[Santa Maria - Lucia Prudente]]></data>
+  <data name="en_spotpoint165_tooltip"><![CDATA[Restaurante]]></data>
+  <data name="en_spotpoint166_tooltip"><![CDATA[Posto de Lavagem]]></data>
+  <data name="en_spotpoint167_tooltip"><![CDATA[Praça da Imprensa]]></data>
+  <data name="en_spotpoint168_tooltip"><![CDATA[Santa Maria - Riverside]]></data>
+  <data name="en_spotpoint169_tooltip"><![CDATA[Restaurante]]></data>
+  <data name="en_spotpoint170_tooltip"><![CDATA[Restaurante]]></data>
+  <data name="en_spotpoint171_tooltip"><![CDATA[Danceteria]]></data>
+  <data name="en_spotpoint172_tooltip"><![CDATA[Escola de idiomas]]></data>
+  <data name="en_spotpoint209_tooltip"><![CDATA[Farmácia]]></data>
+  <data name="en_spotpoint210_tooltip"><![CDATA[Galeria Lords]]></data>
+  <data name="en_spotpoint217_tooltip"><![CDATA[Parque Aquatico]]></data>
+
+
+
+
+	<data name="en_project_floor_title"><![CDATA[Praia Formosa]]></data>
+	<data name="en_spotmap44_tooltip"><![CDATA[]]></data>
+
+
+  <data name="en_logowebsiteurl"><![CDATA[http://construtorasantamaria.com.br/]]></data>
+  <data name="en_logotooltipText"><![CDATA[website]]></data>
+  <data name="en_stamaria_ctrlbarshowThumbnailsTip"><![CDATA[Exibir Galeria]]></data>
+  <data name="en_stamaria_ctrlbarhideThumbnailsTip"><![CDATA[Esconder Galeria]]></data>
+  <data name="en_stamaria_ctrlbardisplayFloorplanTip"><![CDATA[Exibir Mapa]]></data>
+  <data name="en_stamaria_ctrlbarhideFloorplanTip"><![CDATA[Esconder mapa]]></data>
+  <data name="en_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
+  <data name="en_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
+  <data name="en_contextmenuopenVrLabel"><![CDATA[Enter VR mode]]></data>
+  <data name="en_logo1websiteurl"><![CDATA[http://construtorasantamaria.com.br/empreendimento/4/praia-formosa]]></data>
+  <data name="en_logo1tooltipText"><![CDATA[website]]></data>
+  <data name="en_logo2websiteurl"><![CDATA[http://pixelarquiteturadigital.com.br/]]></data>
+  <data name="en_logo2tooltipText"><![CDATA[website]]></data>
+
+
+  <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="en_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="en_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="en_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="en_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="en_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="en_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="en_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="en_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="en_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="en_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="en_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="en_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="en_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="en_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="en_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="en_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="en_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="en_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="en_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="en_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="en_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="en_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="en_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="en_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="en_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+
+
+
+
+</krpano>
